@@ -23,13 +23,13 @@ const Services = () => {
                 </div>                
                 <div>
                     <ServiceCard 
-                    icon='/images/s1.png' 
+                    icon='/images/s3.png' 
                     name="Design & Creative"
                     description="Designing interfaces that are intuitive, efficient, and enjoyable to use."/>
                 </div>                
                 <div>
                     <ServiceCard 
-                    icon='/images/s1.png' 
+                    icon='/images/s4.png' 
                     name="Development"
                     description="Designing interfaces that are intuitive, efficient, and enjoyable to use."/>
                 </div>
