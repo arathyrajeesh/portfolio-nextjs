@@ -37,10 +37,10 @@ function Skills() {
                 <span className='text-cyan-300'>Skills</span>
             </h1>
             <div className='flex flex-wrap justify-center gap-6 mt-16 '>
-                {skills.map((skil)=>{
+                {skills.map((skil,i)=>{
                     return (
                         <Tilt key={skil.name} scale={1.5} transitionSpeed={400}>
-                            <div className='bg-[#14134145] text-center w-40 h-48 rounded-3xl flex flex-col items-center 
+                            <div  data-aos="flip-right" data-aos-anchor-placement='top-center' date-aos-delay={i * 100} className='bg-[#14134145] text-center w-40 h-48 rounded-3xl flex flex-col items-center 
                             justify-center shadow-lg transition hover:scale-105'>
                                 <div className='text-5xl mb-4 text-gray-300 '>{skil.icon}</div>
                                 <p className='text-purple-400 mt-1'>{skil.name}</p>
