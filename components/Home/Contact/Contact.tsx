@@ -36,7 +36,7 @@ export default function Contact() {
                         Schedule a call <br /> with me to see if I <br /> can help
                     </h1>
                     <p className="text-gray-400 mt-6 text-base sm:text-lg">
-                        Reach out to me today and let's discuss how I can help you achieve your goals.
+                        Reach out to me today and let&apos;s discuss how I can help you achieve your goals.
                     </p>
 
                     <div className="mt-7">
