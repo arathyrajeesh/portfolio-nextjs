@@ -22,13 +22,12 @@ const Home = () => {
 
     return (
         <div className='overflow-hidden'>
-        <Hero id="hero"/>
-        <Services id="services"/>
-        <Resume id="resume"/>
-        <Projects id="projects"/>
-        <Skills id="skills"/>
-        <Contact id="contact"/>
-
+        <Hero/>
+        <Services/>
+        <Resume/>
+        <Projects/>
+        <Skills/>
+        <Contact/>
         </div>
     );
 };
