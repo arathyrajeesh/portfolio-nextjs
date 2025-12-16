@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+@keyframes slide {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
+.slider {
+    display: flex;
+    width: 200%;
+    animation: slide 18s linear infinite;
+}
+
+.slider:hover {
+  animation-play-state: paused; /* pause on hover */
+}
