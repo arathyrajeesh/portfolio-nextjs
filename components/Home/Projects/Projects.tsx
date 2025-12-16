@@ -22,7 +22,7 @@ const projects = [
         category: "HTML • CSS • Django • Python",
         image: "/images/local.avif",
         github: "https://github.com/arathyrajeesh/localservice_port.git",
-        // demo: "https://example.com",
+        demo: "https://localservice-port-1.onrender.com/",
     },
         {
         title: "NeoMart - E-commerce Frontend",
