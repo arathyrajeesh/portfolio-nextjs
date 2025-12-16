@@ -34,7 +34,7 @@ const Hero = () => {
             </h1>
 
             <h2 data-aos='fade-up' data-aos-delay="400" className='mt-5 text-sm px-2 text-center sm:text-2xl font-medium flex items-center'>
-            Hi, I'm Arathy - A Passionate
+            Hi, I&apos;m Arathy - A Passionate
             <span className='text-cyan-200 font-bold'>
                 <Typewriter
                 options={{

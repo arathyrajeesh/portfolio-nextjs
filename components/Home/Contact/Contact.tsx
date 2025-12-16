@@ -1,7 +1,7 @@
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import { BiEnvelope, BiMap, BiPhone } from "react-icons/bi";
-import { FaFacebookF, FaGithub, FaInstagram, FaWhatsapp } from "react-icons/fa";
+import { FaGithub, FaInstagram, FaWhatsapp } from "react-icons/fa";
 
 export default function Contact() {
     const form = useRef<HTMLFormElement | null>(null);
